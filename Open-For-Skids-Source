@@ -1,0 +1,522 @@
+--dont skid pweasey weasy
+
+-- Instances: 9 | Scripts: 2 | Modules: 0
+local G2L = {};
+
+-- Workspace.ScreenGui
+G2L["1"] = Instance.new("ScreenGui", game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui"));
+
+
+-- Workspace.ScreenGui.Loader
+G2L["2"] = Instance.new("Frame", G2L["1"]);
+G2L["2"]["BorderSizePixel"] = 0;
+G2L["2"]["BackgroundColor3"] = Color3.fromRGB(31, 31, 31);
+G2L["2"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
+G2L["2"]["BackgroundTransparency"] = 0.4000000059604645;
+G2L["2"]["Size"] = UDim2.new(0, 387, 0, 185);
+G2L["2"]["Position"] = UDim2.new(0.5, 0, 0.5, 0);
+G2L["2"]["Name"] = [[Loader]];
+
+-- Workspace.ScreenGui.Loader.Frame
+G2L["3"] = Instance.new("Frame", G2L["2"]);
+G2L["3"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["3"]["BackgroundTransparency"] = 1;
+G2L["3"]["Size"] = UDim2.new(0, 379, 0, 35);
+G2L["3"]["Position"] = UDim2.new(0.010335917584598064, 0, 0.7675675749778748, 0);
+
+-- Workspace.ScreenGui.Loader.Frame.UIListLayout
+G2L["4"] = Instance.new("UIListLayout", G2L["3"]);
+G2L["4"]["VerticalAlignment"] = Enum.VerticalAlignment.Center;
+G2L["4"]["FillDirection"] = Enum.FillDirection.Horizontal;
+G2L["4"]["HorizontalAlignment"] = Enum.HorizontalAlignment.Center;
+G2L["4"]["Padding"] = UDim.new(0, 40);
+G2L["4"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
+
+-- Workspace.ScreenGui.Loader.Frame.Custom
+G2L["5"] = Instance.new("TextButton", G2L["3"]);
+G2L["5"]["TextSize"] = 14;
+G2L["5"]["BackgroundColor3"] = Color3.fromRGB(31, 31, 31);
+G2L["5"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["5"]["Size"] = UDim2.new(0, 155, 0, 35);
+G2L["5"]["Name"] = [[Custom]];
+G2L["5"]["Text"] = [[Custom UI (Bit Broken :/)]];
+G2L["5"]["Font"] = Enum.Font.SourceSans;
+G2L["5"]["Position"] = UDim2.new(0.03359173238277435, 0, 0.7675675749778748, 0);
+G2L["5"]["BackgroundTransparency"] = 0.699999988079071;
+
+-- Workspace.ScreenGui.Loader.Frame.Library
+G2L["6"] = Instance.new("TextButton", G2L["3"]);
+G2L["6"]["TextSize"] = 14;
+G2L["6"]["BackgroundColor3"] = Color3.fromRGB(31, 31, 31);
+G2L["6"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["6"]["Size"] = UDim2.new(0, 155, 0, 35);
+G2L["6"]["Name"] = [[Library]];
+G2L["6"]["Text"] = [[Library UI (Soloris)]];
+G2L["6"]["Font"] = Enum.Font.SourceSans;
+G2L["6"]["Position"] = UDim2.new(0.5400516986846924, 0, 0.7675675749778748, 0);
+G2L["6"]["BackgroundTransparency"] = 0.699999988079071;
+
+-- Workspace.ScreenGui.Loader.Frame.LocalScript
+G2L["7"] = Instance.new("LocalScript", G2L["3"]);
+
+
+-- Workspace.ScreenGui.Loader.Text
+G2L["8"] = Instance.new("TextLabel", G2L["2"]);
+G2L["8"]["TextWrapped"] = true;
+G2L["8"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["8"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["8"]["TextSize"] = 25;
+G2L["8"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["8"]["Size"] = UDim2.new(0, 350, 0, 118);
+G2L["8"]["Text"] = [[]];
+G2L["8"]["Name"] = [[Text]];
+G2L["8"]["Font"] = Enum.Font.SourceSans;
+G2L["8"]["BackgroundTransparency"] = 1;
+G2L["8"]["Position"] = UDim2.new(0.04651162773370743, 0, 0.08648648858070374, 0);
+
+-- Workspace.ScreenGui.Loader.Text.LocalScript
+G2L["9"] = Instance.new("LocalScript", G2L["8"]);
+
+
+-- Workspace.ScreenGui.Loader.Frame.LocalScript
+local function C_7()
+local script = G2L["7"];
+	script.Parent.Custom.MouseButton1Down:Connect(function()
+		script.Parent.Parent.Parent:Destroy()
+		getgenv().VersionTextValue = "HITBOX EXPANDER"
+		getgenv().HubTextValue = "BLOX FRUITS"
+		getgenv().LoadingTime = 20 --loading time
+	
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/iiprixe/Sizzs-Loader/main/SexSource"))()
+	
+		-- Instances: 27 | Scripts: 4 | Modules: 0
+		local G2L = {};
+	
+		-- Workspace.HitBoxExpander
+		G2L["1"] = Instance.new("ScreenGui", game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui"));
+		G2L["1"]["Name"] = [[HitBoxExpander]];
+	
+		-- Workspace.HitBoxExpander.HitBoxExpanderFrame
+		G2L["2"] = Instance.new("Frame", G2L["1"]);
+		G2L["2"]["BorderSizePixel"] = 0;
+		G2L["2"]["BackgroundColor3"] = Color3.fromRGB(31, 31, 31);
+		G2L["2"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
+		G2L["2"]["Size"] = UDim2.new(0, 298, 0, 106);
+		G2L["2"]["Position"] = UDim2.new(0.5, 0, 0.4364705979824066, 0);
+		G2L["2"]["Name"] = [[HitBoxExpanderFrame]];
+	
+		-- Workspace.HitBoxExpander.HitBoxExpanderFrame.UICorner
+		G2L["3"] = Instance.new("UICorner", G2L["2"]);
+		G2L["3"]["CornerRadius"] = UDim.new(0, 9);
+	
+		-- Workspace.HitBoxExpander.HitBoxExpanderFrame.Header
+		G2L["4"] = Instance.new("TextLabel", G2L["2"]);
+		G2L["4"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+		G2L["4"]["TextSize"] = 21;
+		G2L["4"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+		G2L["4"]["Size"] = UDim2.new(0, 209, 0, 35);
+		G2L["4"]["Text"] = [[BloxFruit HitBox Expander]];
+		G2L["4"]["Name"] = [[Header]];
+		G2L["4"]["Font"] = Enum.Font.SourceSansLight;
+		G2L["4"]["BackgroundTransparency"] = 1;
+	
+		-- Workspace.HitBoxExpander.HitBoxExpanderFrame.Slider
+		G2L["5"] = Instance.new("Frame", G2L["2"]);
+		G2L["5"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+		G2L["5"]["BackgroundTransparency"] = 1;
+		G2L["5"]["Size"] = UDim2.new(0, 262, 0, 49);
+		G2L["5"]["Position"] = UDim2.new(0.06040268391370773, 0, 0.33118173480033875, 0);
+		G2L["5"]["Name"] = [[Slider]];
+	
+		-- Workspace.HitBoxExpander.HitBoxExpanderFrame.Slider.SliderManager
+		G2L["6"] = Instance.new("LocalScript", G2L["5"]);
+		G2L["6"]["Name"] = [[SliderManager]];
+	
+		-- Workspace.HitBoxExpander.HitBoxExpanderFrame.Slider.Input
+		G2L["7"] = Instance.new("TextBox", G2L["5"]);
+		G2L["7"]["CursorPosition"] = -1;
+		G2L["7"]["PlaceholderColor3"] = Color3.fromRGB(101, 101, 101);
+		G2L["7"]["BorderSizePixel"] = 0;
+		G2L["7"]["TextColor3"] = Color3.fromRGB(201, 201, 201);
+		G2L["7"]["TextWrapped"] = true;
+		G2L["7"]["TextSize"] = 14;
+		G2L["7"]["TextScaled"] = true;
+		G2L["7"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+		G2L["7"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
+		G2L["7"]["BackgroundTransparency"] = 0.8999999761581421;
+		G2L["7"]["Size"] = UDim2.new(0.1961832195520401, 0, 0.38571467995643616, 0);
+		G2L["7"]["Text"] = [[30]];
+		G2L["7"]["Position"] = UDim2.new(0.944656491279602, 0, 0.2806122303009033, 0);
+		G2L["7"]["Font"] = Enum.Font.SourceSansBold;
+		G2L["7"]["Name"] = [[Input]];
+	
+		-- Workspace.HitBoxExpander.HitBoxExpanderFrame.Slider.Input.UICorner
+		G2L["8"] = Instance.new("UICorner", G2L["7"]);
+	
+	
+		-- Workspace.HitBoxExpander.HitBoxExpanderFrame.Slider.Slider
+		G2L["9"] = Instance.new("TextButton", G2L["5"]);
+		G2L["9"]["BorderSizePixel"] = 0;
+		G2L["9"]["TextSize"] = 14;
+		G2L["9"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+		G2L["9"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+		G2L["9"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
+		G2L["9"]["Size"] = UDim2.new(0.8492366671562195, 0, 0.28469425439834595, 0);
+		G2L["9"]["Name"] = [[Slider]];
+		G2L["9"]["Text"] = [[]];
+		G2L["9"]["Font"] = Enum.Font.Cartoon;
+		G2L["9"]["Position"] = UDim2.new(0.39312976598739624, 0, 0.2852042019367218, 0);
+		G2L["9"]["BackgroundTransparency"] = 0.949999988079071;
+	
+		-- Workspace.HitBoxExpander.HitBoxExpanderFrame.Slider.Slider.Bar
+		G2L["a"] = Instance.new("Frame", G2L["9"]);
+		G2L["a"]["BorderSizePixel"] = 0;
+		G2L["a"]["BackgroundColor3"] = Color3.fromRGB(171, 171, 255);
+		G2L["a"]["Size"] = UDim2.new(0.5, 0, 1, 0);
+		G2L["a"]["Name"] = [[Bar]];
+	
+		-- Workspace.HitBoxExpander.HitBoxExpanderFrame.Slider.Slider.Bar.UICorner
+		G2L["b"] = Instance.new("UICorner", G2L["a"]);
+	
+	
+		-- Workspace.HitBoxExpander.HitBoxExpanderFrame.Slider.Slider.UICorner
+		G2L["c"] = Instance.new("UICorner", G2L["9"]);
+	
+	
+		-- Workspace.HitBoxExpander.HitBoxExpanderFrame.HitBoxSize
+		G2L["d"] = Instance.new("StringValue", G2L["2"]);
+		G2L["d"]["Value"] = [[30,30,30]];
+		G2L["d"]["Name"] = [[HitBoxSize]];
+	
+		-- Workspace.HitBoxExpander.HitBoxExpanderFrame.Toggle
+		G2L["e"] = Instance.new("Frame", G2L["2"]);
+		G2L["e"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+		G2L["e"]["BackgroundTransparency"] = 1;
+		G2L["e"]["Size"] = UDim2.new(0, 281, 0, 31);
+		G2L["e"]["BorderColor3"] = Color3.fromRGB(28, 43, 54);
+		G2L["e"]["Position"] = UDim2.new(0.032718122005462646, 0, 0.6172506809234619, 0);
+		G2L["e"]["Name"] = [[Toggle]];
+	
+		-- Workspace.HitBoxExpander.HitBoxExpanderFrame.Toggle.Header
+		G2L["f"] = Instance.new("TextLabel", G2L["e"]);
+		G2L["f"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+		G2L["f"]["TextSize"] = 21;
+		G2L["f"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+		G2L["f"]["Size"] = UDim2.new(0, 84, 0, 31);
+		G2L["f"]["Text"] = [[Enabled]];
+		G2L["f"]["Name"] = [[Header]];
+		G2L["f"]["Font"] = Enum.Font.SourceSansLight;
+		G2L["f"]["BackgroundTransparency"] = 1;
+		G2L["f"]["Position"] = UDim2.new(-0.0346975103020668, 0, 0, 0);
+	
+		-- Workspace.HitBoxExpander.HitBoxExpanderFrame.Toggle.Box
+		G2L["10"] = Instance.new("Frame", G2L["e"]);
+		G2L["10"]["BackgroundColor3"] = Color3.fromRGB(31, 31, 31);
+		G2L["10"]["Size"] = UDim2.new(0, 22, 0, 22);
+		G2L["10"]["Position"] = UDim2.new(0.26690390706062317, 0, 0.12903225421905518, 0);
+		G2L["10"]["Name"] = [[Box]];
+	
+		-- Workspace.HitBoxExpander.HitBoxExpanderFrame.Toggle.Box.UICorner
+		G2L["11"] = Instance.new("UICorner", G2L["10"]);
+		G2L["11"]["CornerRadius"] = UDim.new(0, 3);
+	
+		-- Workspace.HitBoxExpander.HitBoxExpanderFrame.Toggle.Box.UIStroke
+		G2L["12"] = Instance.new("UIStroke", G2L["10"]);
+		G2L["12"]["Color"] = Color3.fromRGB(171, 171, 255);
+	
+		-- Workspace.HitBoxExpander.HitBoxExpanderFrame.Toggle.Button
+		G2L["13"] = Instance.new("TextButton", G2L["e"]);
+		G2L["13"]["TextSize"] = 14;
+		G2L["13"]["TextTransparency"] = 1;
+		G2L["13"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+		G2L["13"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+		G2L["13"]["Size"] = UDim2.new(0, 99, 0, 31);
+		G2L["13"]["Name"] = [[Button]];
+		G2L["13"]["Font"] = Enum.Font.SourceSans;
+		G2L["13"]["BackgroundTransparency"] = 1;
+	
+		-- Workspace.HitBoxExpander.HitBoxExpanderFrame.Toggle.LocalScript
+		G2L["14"] = Instance.new("LocalScript", G2L["e"]);
+	
+	
+		-- Workspace.HitBoxExpander.HitBoxExpanderFrame.Toggle.Header2
+		G2L["15"] = Instance.new("TextLabel", G2L["e"]);
+		G2L["15"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+		G2L["15"]["TextSize"] = 21;
+		G2L["15"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+		G2L["15"]["Size"] = UDim2.new(0, 84, 0, 31);
+		G2L["15"]["Text"] = [[CanCollide]];
+		G2L["15"]["Name"] = [[Header2]];
+		G2L["15"]["Font"] = Enum.Font.SourceSansLight;
+		G2L["15"]["BackgroundTransparency"] = 1;
+		G2L["15"]["Position"] = UDim2.new(0.3709964454174042, 0, 0, 0);
+	
+		-- Workspace.HitBoxExpander.HitBoxExpanderFrame.Toggle.Button2
+		G2L["16"] = Instance.new("TextButton", G2L["e"]);
+		G2L["16"]["TextSize"] = 14;
+		G2L["16"]["TextTransparency"] = 1;
+		G2L["16"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+		G2L["16"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+		G2L["16"]["Size"] = UDim2.new(0, 99, 0, 31);
+		G2L["16"]["Name"] = [[Button2]];
+		G2L["16"]["Font"] = Enum.Font.SourceSans;
+		G2L["16"]["Position"] = UDim2.new(0.4056939482688904, 0, 0, 0);
+		G2L["16"]["BackgroundTransparency"] = 1;
+	
+		-- Workspace.HitBoxExpander.HitBoxExpanderFrame.Toggle.Box2
+		G2L["17"] = Instance.new("Frame", G2L["e"]);
+		G2L["17"]["BackgroundColor3"] = Color3.fromRGB(31, 31, 31);
+		G2L["17"]["Size"] = UDim2.new(0, 22, 0, 22);
+		G2L["17"]["Position"] = UDim2.new(0.6725978255271912, 0, 0.12903225421905518, 0);
+		G2L["17"]["Name"] = [[Box2]];
+	
+		-- Workspace.HitBoxExpander.HitBoxExpanderFrame.Toggle.Box2.UICorner
+		G2L["18"] = Instance.new("UICorner", G2L["17"]);
+		G2L["18"]["CornerRadius"] = UDim.new(0, 3);
+	
+		-- Workspace.HitBoxExpander.HitBoxExpanderFrame.Toggle.Box2.UIStroke
+		G2L["19"] = Instance.new("UIStroke", G2L["17"]);
+		G2L["19"]["Color"] = Color3.fromRGB(171, 171, 255);
+	
+		-- Workspace.HitBoxExpander.HitBoxExpanderFrame.Toggle.LocalScript
+		G2L["1a"] = Instance.new("LocalScript", G2L["e"]);
+	
+	
+		-- Workspace.HitBoxExpander.HitBoxExpanderFrame.Dragify
+		G2L["1b"] = Instance.new("LocalScript", G2L["2"]);
+		G2L["1b"]["Name"] = [[Dragify]];
+	
+		-- Workspace.HitBoxExpander.HitBoxExpanderFrame.Slider.SliderManager
+		local function C_6()
+			local script = G2L["6"];
+			local slider = script.Parent.Slider
+			local bar = slider.Bar
+			local textbox = script.Parent.Input
+			local mouse = game.Players.LocalPlayer:GetMouse()
+	
+			local sliderPosX = slider.AbsolutePosition.X
+			local sliderSizeX = slider.AbsoluteSize.X
+			local held = false
+	
+			slider.MouseButton1Down:Connect(function()
+				held = true
+				bar.Size = UDim2.new(math.clamp((mouse.X - sliderPosX)/sliderSizeX,0,1),0,1,0)
+				textbox.Text = math.floor(bar.Size.X.Scale * 100)
+			end)
+	
+			game:GetService("UserInputService").InputEnded:Connect(function(input, gp)
+				if input.UserInputType == Enum.UserInputType.MouseButton1 then
+					held = false
+				end
+			end)
+	
+			mouse.Move:Connect(function()
+				if held then
+					bar.Size = UDim2.new(math.clamp((mouse.X - sliderPosX)/sliderSizeX,0,1),0,1,0)
+					textbox.Text = math.floor(bar.Size.X.Scale * 100)
+				end
+			end)
+	
+			textbox.FocusLost:Connect(function()
+				if typeof(tonumber(textbox.Text)) == "number" then
+					local num = math.clamp(tonumber(textbox.Text), 0, 100)
+					bar.Size = UDim2.new(num/100, 0, 1, 0)
+					textbox.Text = tostring(num)
+				else
+					textbox.Text = "Not valid"
+					delay(0.5,function()
+						textbox.Text = math.floor(bar.Size.X.Scale * 100)
+					end)
+				end
+			end)
+	
+			while wait() do
+				script.Parent.Parent.HitBoxSize.Value = textbox.Text
+			end
+		end;
+		task.spawn(C_6);
+		-- Workspace.HitBoxExpander.HitBoxExpanderFrame.Toggle.LocalScript
+		local function C_14()
+			local script = G2L["14"];
+			t = false
+			script.Parent.Button.MouseButton1Down:Connect(function()
+				if t==false and script.Parent.Button.MouseButton1Down then
+					t=true
+				else
+					t=false
+				end
+				while t==true do
+					wait()
+					for i,v in pairs(game:GetService("Workspace").Enemies:GetDescendants()) do
+						if v.Name == "HumanoidRootPart" then
+							v.Transparency = 0.4
+							v.Size = Vector3.new(script.Parent.Parent.HitBoxSize.Value,script.Parent.Parent.HitBoxSize.Value,script.Parent.Parent.HitBoxSize.Value)
+						end
+					end
+					script.Parent.Box.BackgroundColor3 = Color3.fromRGB(170, 170, 255)
+				end
+				while t==false do
+					wait()
+					for i,v in pairs(game:GetService("Workspace").Enemies:GetDescendants()) do
+						if v.Name == "HumanoidRootPart" then
+							v.Transparency = 1
+							v.Size = Vector3.new(1.4, 1.8, 0.85)
+						end
+					end
+					script.Parent.Box.BackgroundColor3 = Color3.fromRGB(30,30,30)
+				end
+			end)
+		end;
+		task.spawn(C_14);
+		-- Workspace.HitBoxExpander.HitBoxExpanderFrame.Toggle.LocalScript
+		local function C_1a()
+			local script = G2L["1a"];
+			JJ = false
+			script.Parent.Button2.MouseButton1Down:Connect(function()
+				if JJ==false and script.Parent.Button.MouseButton1Down then
+					JJ=true
+				else
+					JJ=false
+				end
+				while JJ==true do
+					wait()
+					for i,v in pairs(game:GetService("Workspace").Enemies:GetDescendants()) do
+						if v.Name == "HumanoidRootPart" then
+							v.CanCollide = true
+						end
+					end
+					script.Parent.Box2.BackgroundColor3 = Color3.fromRGB(170, 170, 255)
+				end
+				while JJ==false do
+					wait()
+					for i,v in pairs(game:GetService("Workspace").Enemies:GetDescendants()) do
+						if v.Name == "HumanoidRootPart" then
+							v.CanCollide = false
+						end
+					end
+					script.Parent.Box2.BackgroundColor3 = Color3.fromRGB(30,30,30)
+				end
+			end)
+		end;
+		task.spawn(C_1a);
+		-- Workspace.HitBoxExpander.HitBoxExpanderFrame.Dragify
+		local function C_1b()
+			local script = G2L["1b"];
+			local UserInputService = game:GetService("UserInputService")
+	
+			local gui = script.Parent
+	
+			local dragging
+			local dragInput
+			local dragStart
+			local startPos
+	
+			local function update(input)
+				local delta = input.Position - dragStart
+				gui.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+			end
+	
+			gui.InputBegan:Connect(function(input)
+				if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+					dragging = true
+					dragStart = input.Position
+					startPos = gui.Position
+	
+					input.Changed:Connect(function()
+						if input.UserInputState == Enum.UserInputState.End then
+							dragging = false
+						end
+					end)
+				end
+			end)
+	
+			gui.InputChanged:Connect(function(input)
+				if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+					dragInput = input
+				end
+			end)
+	
+			UserInputService.InputChanged:Connect(function(input)
+				if input == dragInput and dragging then
+					update(input)
+				end
+			end)
+		end;
+		task.spawn(C_1b);
+	
+		return G2L["1"], require;
+	end)
+	
+	script.Parent.Library.MouseButton1Down:Connect(function()
+		script.Parent.Parent.Parent:Destroy()
+		getgenv().VersionTextValue = "HITBOX EXPANDER"
+		getgenv().HubTextValue = "BLOX FRUITS"
+		getgenv().LoadingTime = 20 --loading time
+	
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/iiprixe/Sizzs-Loader/main/SexSource"))()
+		local SolarisLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/Stebulous/solaris-ui-lib/main/source.lua"))()
+	
+		local win = SolarisLib:New({
+			Name = "BloxFruits HitBox Extender",
+			FolderToSave = "SolarisLibStuff"
+		})
+	
+		local tab = win:Tab("Tab 1")
+	
+		local sec = tab:Section("Extender/Others")
+	
+		local slider = sec:Slider("Size", 0,100,30,1,"Slider", function(t)
+			_G.Soiz = t
+		end)
+	
+		local slider = sec:Slider("Transparency", 0,1,0.4,0.1,"Slider", function(t)
+			_G.Trans = t
+		end)
+	
+		local toggle = sec:Toggle("CanCollide", true,"Toggle", function(t)
+			_G.cancollide = t
+		end)
+	
+		getgenv().HitBozx = false
+		local toggle = sec:Toggle("Enabled", false,"Toggle", function(t)
+			getgenv().HitBozx = t
+			spawn(function()
+				while HitBozx == true do
+					wait()
+					for i,v in pairs(game:GetService("Workspace").Enemies:GetDescendants()) do
+						if v.Name == "HumanoidRootPart" then
+							v.CanCollide = _G.cancollide
+							v.Transparency = _G.Trans
+							v.Size = Vector3.new(_G.Soiz,_G.Soiz,_G.Soiz)
+						end
+					end
+				end
+				while HitBozx == false do
+					wait()
+					for i,v in pairs(game:GetService("Workspace").Enemies:GetDescendants()) do
+						if v.Name == "HumanoidRootPart" then
+							v.CanCollide = _G.cancollide
+							v.Transparency = 1
+							v.Size = Vector3.new(2, 2, 1)
+						end
+					end
+				end
+			end)
+		end)
+	end)
+end;
+task.spawn(C_7);
+-- Workspace.ScreenGui.Loader.Text.LocalScript
+local function C_9()
+local script = G2L["9"];
+	wait(1)
+	text = "Choose What UI You Want To Use!"
+	
+	for i = 1, #text do
+		script.Parent.Text = string.sub(text,1,i)
+		wait(0.05)
+	end
+end;
+task.spawn(C_9);
+
+return G2L["1"], require;
